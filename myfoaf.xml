@@ -2,22 +2,55 @@
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	  xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:admin="http://webns.net/mvcb/">
+	  
+  <rdf:Description rdf:about="http://www.w3.org/">
+    <dc:title>World Wide Web </br></dc:title> 
+  </rdf:Description>
 <foaf:PersonalProfileDocument rdf:about="">
   <foaf:maker rdf:resource="#me"/>
   <foaf:primaryTopic rdf:resource="#me"/>
   <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
   <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
+  </foaf:PersonalProfileDocument>
+  
 <foaf:Person rdf:ID="me">
-<foaf:name>Sai Sree Chukkapalli</foaf:name>
+<foaf:name>Sai Sree Chukkapalli </br></foaf:name>
 <foaf:title>Ms</foaf:title>
-<foaf:givenname>Sai Sree</foaf:givenname>
-<foaf:family_name>Chukkapalli</foaf:family_name>
-<foaf:mbox_sha1sum>cc62d63b090ed86c9943ff6c676a479325b80a16</foaf:mbox_sha1sum>
+<foaf:givenname>Sai Sree </foaf:givenname>
+<foaf:family_name>Chukkapalli</br></foaf:family_name>
+<foaf:mbox_sha1sum>saisree@gmail.com </br></foaf:mbox_sha1sum>
 <foaf:phone rdf:resource="tel:443(525)-7668"/>
+<foaf:Image>
+<foaf:depiction rdf:resource="pink1.jpg"/>
+</foaf:Image>
+<foaf:depiction>Semantic Web </br></foaf:depiction>
+<foaf:interest> Machine Learning </br></foaf:interest>
+
 <foaf:knows>
 <foaf:Person>
-<foaf:name>Madhura</foaf:name>
-<foaf:mbox_sha1sum>91f533012fb4c8597e4b9d7b2d9482b4534e0c3d</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+<foaf:name>Madhura </br></foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Madhura </foaf:givenname>
+<foaf:family_name>S</br></foaf:family_name>
+<foaf:mbox_sha1sum>madhus@umbc.edu</foaf:mbox_sha1sum>
+<foaf:depiction>Semantic Web </br></foaf:depiction>
+<foaf:interest> Computer Vision </br></foaf:interest>
+</foaf:Person>
+</foaf:knows>
+
+
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Apurva</br></foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Apurva </foaf:givenname>
+<foaf:family_name>Keshoju</br></foaf:family_name>
+<foaf:mbox_sha1sum>apurva@umbc.edu</foaf:mbox_sha1sum>
+<foaf:depiction>Semantic Web </br></foaf:depiction>
+<foaf:interest> Computer Networks </br></foaf:interest>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
 </rdf:RDF>
